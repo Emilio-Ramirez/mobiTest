@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import { Task } from './tasks.interface';
+import { Task } from './task.interface';
 
 @Injectable()
 export class TasksService {
-  private task: Task[] = [];
+  private tasks: Task[] = [];
 
   getTasks(): Task[] {
-    return this.task;
+    return this.tasks;
   }
 }
