@@ -12,7 +12,7 @@ export class TasksController {
   @Get()
   @ApiOperation({ summary: 'Get all tasks' })
   @ApiResponse({ status: 200, description: 'Return all tasks.', type: [TaskEntity] })
-  getTasks(): Task[] {
-    return this.tasksService.getTasks();
+  async getTasks(): Promise<Task[]> {
+    return await this.tasksService.getTasks();
   }
 }
