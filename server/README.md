@@ -130,6 +130,12 @@ npm run test
 
 ```
 
+Current test coverage:
+
+- Test Suites: 3 passed, 3 total
+- Tests: 16 passed, 16 total
+- Snapshots: 0 totalurrent test coverage:
+
 To run the e2e tests:
 
 ```
@@ -137,6 +143,17 @@ To run the e2e tests:
 npm run test:e2e
 
 ```
+
+Our e2e tests cover the main API endpoints:
+
+- GET /tasks: Retrieves all tasks
+- POST /tasks: Creates a new task
+
+These tests ensure that our API is functioning correctly in a production-like environment.
+
+## Deployment
+
+1. Build the application:``
 
 ## Deployment
 
@@ -163,3 +180,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+```
+
+```
