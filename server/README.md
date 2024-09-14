@@ -153,10 +153,6 @@ These tests ensure that our API is functioning correctly in a production-like en
 
 ## Deployment
 
-1. Build the application:``
-
-## Deployment
-
 1. Build the application:
 
 ```
@@ -164,7 +160,6 @@ These tests ensure that our API is functioning correctly in a production-like en
 npm run build
 
 ```
-
 2. Start the production server:
 
 ```
@@ -183,4 +178,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```
 
-```
